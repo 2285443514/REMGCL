@@ -6,14 +6,14 @@
 
 1. Clone this repository and navigate to LLaVA folder
 ```bash
-git clone https://github.com/haotian-liu/LLaVA.git
-cd LLaVA
+git clone https://github.com/2285443514/REMGCL
+cd REMGCL
 ```
 
 2. Install Package
 ```Shell
-conda create -n llava python=3.10 -y
-conda activate llava
+conda create -n REMGCL python=3.10 -y
+conda activate REMGCL
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
 ```
