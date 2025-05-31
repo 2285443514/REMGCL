@@ -1,0 +1,9 @@
+[[[0.286, 0.022], [0.708, 0.016], [0.708, 0.062], [0.286, 0.069]], ['J.K.ROWLING', 0.977]]
+[[[0.094, 0.084], [0.904, 0.089], [0.904, 0.157], [0.094, 0.151]], ['HARRY POTTER', 0.964]]
+[[[0.419, 0.171], [0.583, 0.171], [0.583, 0.211], [0.419, 0.211]], ['and the', 0.981]]
+[[[0.219, 0.222], [0.784, 0.226], [0.784, 0.273], [0.219, 0.268]], ['Chamber of Secrets', 0.956]]
+[[[0.555, 0.854], [0.826, 0.854], [0.826, 0.891], [0.555, 0.891]], ['Mlustratedby', 0.87]]
+[[[0.591, 0.898], [0.776, 0.898], [0.776, 0.929], [0.591, 0.929]], ['JIMKAY', 0.988]]
+The image is a vibrant illustration of the cover of the book "Harry Potter and the Chamber of Secrets" by J.K. Rowling. The cover is dominated by a blue car, which is flying through the air, carrying three characters - Harry Potter, Ron Weasley, and Hermione Granger. They are all looking out of the car, their faces filled with excitement and curiosity.
+The car is soaring over a quaint village, which is depicted in the background. The village is characterized by a church with a tall steeple and a castle-like building, adding to the magical ambiance of the scene.
+The title of the book, "Harry Potter and the Chamber of Secrets", is prominently displayed at the top of the cover in bold red letters. The author's name, J.K. Rowling, is written in white letters at the bottom of the cover. The illustration is signed by the artist, Jim Kay, and the publisher, Bloomsbury, is also mentioned at the bottom. The overall composition of the cover suggests an adventurous and exciting story within the pages of the book.

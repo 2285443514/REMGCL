@@ -1,0 +1,5 @@
+[[[0.016, 0.0], [0.901, 0.021], [0.898, 0.109], [0.013, 0.089]], ['STEM Team Building', 0.98]]
+[[[0.016, 0.115], [0.464, 0.13], [0.461, 0.214], [0.013, 0.198]], ['Challenge', 1.0]]
+In the image, a group of four children are engrossed in a STEM team building challenge. They are huddled around a table, their attention focused on a white paper tube that has been cut into two halves. The tube is adorned with a small orange ball at its center, serving as the focal point of their activity.
+The children are dressed in casual attire, with one of them wearing a gray sweatshirt and another in a black sweatshirt. Their expressions are one of concentration and curiosity, indicative of the problem-solving nature of their task.
+The setting is a room with a vibrant orange wall, which contrasts with the white table and the children's clothing. The text "STEM Team Building Challenge" is prominently displayed, suggesting the nature of the activity they are engaged in. The image captures a moment of learning and collaboration, as the children work together to solve the challenge presented to them.
