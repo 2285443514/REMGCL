@@ -4,9 +4,29 @@
 
 ## Environment Setup
 
+1. Clone this repository and navigate to LLaVA folder
+```bash
+git clone https://github.com/haotian-liu/LLaVA.git
+cd LLaVA
+```
+
+2. Install Package
+```Shell
+conda create -n llava python=3.10 -y
+conda activate llava
+pip install --upgrade pip  # enable PEP 660 support
+pip install -e .
+```
+
+3. Install additional packages for training cases
+```
+pip install -e ".[train]"
+pip install flash-attn --no-build-isolation
+```
+
 ## Training Data ([Huggingface](https://huggingface.co/datasets/SALT-NLP/LLaVAR))
 
-Our image data is already transformed into the format of LLaVA pretraining/finetuning (They have "fake" file names in the format of CC3M and COCO). You can download them and merge them into the LLaVA training sets.
+Our image data is from [LLaVAR](https://github.com/SALT-NLP/LLaVAR), which is already transformed into the format of LLaVA pretraining/finetuning (They have "fake" file names in the format of CC3M and COCO). You can download them and merge them into the LLaVA training sets.
 
 Our instructions, on the other hand, already contain LLaVA's instructions.
 
@@ -18,7 +38,7 @@ Finetuning Images： [Google Drive](https://drive.google.com/file/d/1Ms7OCjcFQ18
 
 Finetuning Instructions (158K + 16K): [Google Drive](https://drive.google.com/file/d/1ISdKOV1wwVkLHf5FNutctpOBa-CmNRFv/view?usp=sharing)
 
-Finetuning Instructions (158K + 20K): [Google Drive](https://drive.google.com/file/d/1NHO8lly6pUo-fdyOAyWeGiQJWRb9qggk/view?usp=sharing)
+REMGCL Instructuons:[Google Drive](https://drive.google.com/file/d/1K41VSx6gyvLLZ-WQVegFZ0oXufTKMKgI/view?usp=sharing)
 
 
 ## Training Script
