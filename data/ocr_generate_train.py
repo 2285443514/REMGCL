@@ -71,6 +71,6 @@ paddleocr_pipeline(directory_path)
 # boxes = [line[0] for line in result]
 # txts = [line[1][0] for line in result]
 # scores = [line[1][1] for line in result]
-# im_show = draw_ocr(image, boxes, txts, scores, font_path='/home/zxy/codes/LLaVA/data/simfang.ttf')
+# im_show = draw_ocr(image, boxes, txts, scores, font_path='path/to/codes/LLaVA/data/simfang.ttf')
 # im_show = Image.fromarray(im_show)
 # im_show.save('result.jpg')

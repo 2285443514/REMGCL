@@ -167,9 +167,9 @@ class DynamicObject:
 
 if __name__ == "__main__":
     args = DynamicObject()
-    args.model_path = "/home/zxy/model/ShareGPT4V-7B"
+    args.model_path = "path/to/model/ShareGPT4V-7B"
     args.model_base = None
-    args.image_folder = "/home/zxy/data/LLaVAR/finetune/finetune_images"
+    args.image_folder = "path/to/data/LLaVAR/finetune/finetune_images"
     args.conv_mode = None
     args.sep = ","
     args.temperature = 0.2

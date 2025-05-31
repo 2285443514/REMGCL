@@ -3,11 +3,11 @@ export NCCL_P2P_DISABLE=1
 
 deepspeed --include localhost:3,4 llava/train/train_mem.py \
     --deepspeed ./scripts/zero3_offload.json \
-    --model_name_or_path /home/zxy/model/vicuna-7b-v1.5 \
+    --model_name_or_path path/to/model/vicuna-7b-v1.5 \
     --version plain \
-    --data_path /home/zxy/data/LLaVAR/pretrain/chat_llavar.json \
-    --image_folder /home/zxy/data/LLaVAR/pretrain/image \
-    --vision_tower /home/zxy/model/clip-vit-large-patch14 \
+    --data_path path/to/data/LLaVAR/pretrain/chat_llavar.json \
+    --image_folder path/to/data/LLaVAR/pretrain/image \
+    --vision_tower path/to/model/clip-vit-large-patch14 \
     --mm_projector_type mlp2x_gelu \
     --tune_mm_mlp_adapter True \
     --mm_vision_select_layer -2 \

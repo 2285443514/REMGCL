@@ -18,12 +18,12 @@ export NCCL_P2P_DISABLE=1
 
 deepspeed --include localhost:0,2,4 llava/train/train_mem.py \
     --deepspeed ./scripts/zero3_offload.json \
-    --model_name_or_path /home/zxy/model/llavar-v1 \
+    --model_name_or_path path/to/model/llavar-v1 \
     --version v1 \
-    --data_path /home/zxy/data/MY/gptqa-50.json \
-    --image_folder /home/zxy/data/LLaVAR/finetune/finetune_images \
-    --vision_tower /home/zxy/model/clip-vit-large-patch14-336 \
-    --pretrain_mm_mlp_adapter /home/zxy/model/llavar-v1/llavar-13b-pretrain.bin \
+    --data_path path/to/data/MY/gptqa-50.json \
+    --image_folder path/to/data/LLaVAR/finetune/finetune_images \
+    --vision_tower path/to/model/clip-vit-large-patch14-336 \
+    --pretrain_mm_mlp_adapter path/to/model/llavar-v1/llavar-13b-pretrain.bin \
     --mm_vision_select_layer -2 \
     --mm_use_im_start_end False \
     --mm_use_im_patch_token False \
