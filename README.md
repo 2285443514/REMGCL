@@ -169,12 +169,5 @@ python -m llava.eval.run_llava \
 For text-based VQA (from [MultimodalOCR](https://github.com/Yuliang-Liu/MultimodalOCR)): after cloning their repo and preparing the data, you can put the `./MultimodalOCR/Eval_LLaVAR.py` in `/your/path/to/MultimodalOCR/models/LLaVA/` and add our model to `/your/path/to/MultimodalOCR/eval.py` for evaluation.
 
 
-### Acknowledgement
-The code base is mainly from the [LLaVA](https://github.com/haotian-liu/LLaVA) project. Our evaluation is also built on the [MultimodalOCR](https://github.com/Yuliang-Liu/MultimodalOCR) project. 
-
-### Related Projects
-## Related Projects
-
-- [LLaVA](https://github.com/haotian-liu/LLaVA)
-- [LLaVAR](https://github.com/SALT-NLP/LLaVAR)
-- [MultimodalOCR](https://github.com/Yuliang-Liu/MultimodalOCR)
+## Acknowledgement
+The code base is mainly from the [LLaVA](https://github.com/haotian-liu/LLaVA) project. Our evaluation is also built on the [MultimodalOCR](https://github.com/Yuliang-Liu/MultimodalOCR) project. Traing data is from [LLaVAR](https://github.com/SALT-NLP/LLaVAR).
