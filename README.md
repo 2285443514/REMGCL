@@ -30,15 +30,15 @@ Our image data is from [LLaVAR](https://github.com/SALT-NLP/LLaVAR), which is al
 
 Our instructions, on the other hand, already contain LLaVA's instructions.
 
-Pretraining Images： [Google Drive](https://drive.google.com/file/d/1zWpqnAcaG_dUwkJJUvP9FH9zq__c-ODY/view?usp=sharing)
+Pretraining Images: [Google Drive](https://drive.google.com/file/d/1zWpqnAcaG_dUwkJJUvP9FH9zq__c-ODY/view?usp=sharing)
 
-Pretraining Instructions (595K + 422K)： [Google Drive](https://drive.google.com/file/d/1_GCHFwrPGjp-9tZlDBwVkdz-L1ymchKY/view?usp=sharing)
+Pretraining Instructions (595K + 422K): [Google Drive](https://drive.google.com/file/d/1_GCHFwrPGjp-9tZlDBwVkdz-L1ymchKY/view?usp=sharing)
 
-Finetuning Images： [Google Drive](https://drive.google.com/file/d/1Ms7OCjcFQ18Whmujszpc9bTp0Jy0Dye4/view?usp=sharing)
+Finetuning Images: [Google Drive](https://drive.google.com/file/d/1Ms7OCjcFQ18Whmujszpc9bTp0Jy0Dye4/view?usp=sharing)
 
 Finetuning Instructions (158K + 16K): [Google Drive](https://drive.google.com/file/d/1ISdKOV1wwVkLHf5FNutctpOBa-CmNRFv/view?usp=sharing)
 
-REMGCL Instructuons:[Google Drive](https://drive.google.com/file/d/1K41VSx6gyvLLZ-WQVegFZ0oXufTKMKgI/view?usp=sharing)
+REMGCL Instructuons: [Google Drive](https://drive.google.com/file/d/1K41VSx6gyvLLZ-WQVegFZ0oXufTKMKgI/view?usp=sharing)
 
 
 ## Training Script
