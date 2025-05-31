@@ -164,28 +164,6 @@ deepspeed --include localhost:1 llava/train/train_mem.py \
 
 ## Evaluation Script
 
-Instruction-following on COCO images.
-
-```
-python /path/to/LLaVA/llava/eval/model_vqa.py \
-    --model-name /path/to/checkpoint \
-    --question-file \
-    /path/to/LLaVA/playground/data/coco2014_val_qa_eval/qa90_questions.jsonl \
-    --image-folder \
-    /path/to/coco2014/val2014 \
-    --answers-file \
-    /path/to/qa90-answer-file.jsonl \
-    --conv-mode "llava_v1"
-```
-
-Instruction-following on a given image URL.
-```
-python -m llava.eval.run_llava \
-    --model-name /path/to/checkpoint \
-    --image-file "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/a-man-called-otto_ezrjr0pm_480x.progressive.jpg" \
-    --query "Who starred in the movie?"
-```
-
 For text-based VQA (from [MultimodalOCR](https://github.com/Yuliang-Liu/MultimodalOCR)): after cloning their repo and preparing the data, you can put the `./MultimodalOCR/Eval_LLaVAR.py` in `/your/path/to/MultimodalOCR/models/LLaVA/` and add our model to `/your/path/to/MultimodalOCR/eval.py` for evaluation.
 
 
