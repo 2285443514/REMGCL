@@ -4,7 +4,7 @@
 
 ## Environment Setup
 
-1. Clone this repository and navigate to LLaVA folder
+1. Clone this repository and navigate to REMGCL folder
 ```bash
 git clone https://github.com/2285443514/REMGCL
 cd REMGCL
